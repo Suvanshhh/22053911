@@ -1,0 +1,10 @@
+.container {
+    padding: 16px;
+  }
+  
+  .loadingContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  

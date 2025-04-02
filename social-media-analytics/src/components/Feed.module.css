@@ -1,0 +1,42 @@
+.container {
+    padding: 16px;
+  }
+  
+  .loadingContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .refreshButton {
+    transition: transform 0.2s;
+  }
+  
+  .refreshButton:hover {
+    transform: scale(1.05);
+  }
+  
+  .feedContainer {
+    max-width: 100%;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    
+    .refreshButton {
+      align-self: flex-end;
+    }
+  }
+  
